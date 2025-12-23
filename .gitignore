@@ -5,3 +5,5 @@ build_*/
 *.s
 *.o
 lib/
+CMakeFiles/
+*.cmake

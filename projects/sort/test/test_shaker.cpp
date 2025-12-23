@@ -7,7 +7,7 @@ TEST(ArrayEqual, AnyElementsCount) {
 	const int actual_size = sizeof(actual) / sizeof(actual[0]);
 	shaker_sort(actual, actual_size);
 	
-	int expected[] = {1, 4, 3, 5, 8, 11};
+	int expected[] = {1, 2, 3, 5, 8, 11};
 	const int expected_size = sizeof(expected) / sizeof(expected[0]);
 	
 	ASSERT_EQ(expected_size, actual_size)
