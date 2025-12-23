@@ -1,6 +1,6 @@
 project(shaker_sort)
 
-add_executable($(PROJECT_NAME) main.cpp)
+add_library(shaker_sort_lib "")
 
 add_subdirectory(src)
 add_subdirectory(test)
