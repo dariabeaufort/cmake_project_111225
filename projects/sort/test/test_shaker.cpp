@@ -15,7 +15,7 @@ TEST(ArrayEqual, AnyElementsCount) {
 	
 	for (int i = 0; i < actual_size; i++) {
 		ASSERT_EQ(expected[i], actual[i])
-			<< "Массив ождаемый и отсортированный отличаются в элементе с индексом: "
+			<< "Массив ожидаемый и отсортированный отличаются в элементе с индексом: "
 			<< i;
 	}
 }

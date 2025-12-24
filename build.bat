@@ -2,7 +2,7 @@
 setlocal EnableDelayedExpansion
 
 set BUILD_TYPE=Ninja
-set BUILD_SUFFIX=Ninja
+set BUILD_SUFFIX=ninja
 
 chcp 65001
 

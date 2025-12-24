@@ -6,4 +6,3 @@ build_*/
 *.o
 lib/
 CMakeFiles/
-*.cmake
